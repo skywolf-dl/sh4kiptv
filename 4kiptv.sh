@@ -17,7 +17,6 @@ echo 正在增加IPTV开机自启动脚本
 cd /jffs/scripts
 #删除之前的脚本
 echo 正在删除旧文件
-<<<<<<< HEAD
 rm -rf wan-start* nat-start*
 #下载自启动脚本
 echo 正在下载新文件
@@ -25,14 +24,6 @@ wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4ki
 wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4kiptv/master/nat-start
 #设置权限
 chmod -R 0755 wan-start nat-start
-=======
-rm -rf wan-nat-start*
-#下载自启动脚本
-echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4kiptv/master/wan-nat-start
-#设置权限
-chmod -R 0755 wan-nat-start
->>>>>>> 4e03cfcfeec8dad2ea3532fbdd5fc65491e66d6b
 #完成提示
 echo 成功
 #延迟运行
