@@ -40,9 +40,10 @@ rm -rf dns.conf* iptv.conf*
 #下载开机运行脚本
 echo 正在下载新文件
 wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4kiptv/master/dns.conf
-wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4kiptv/master/iptv.conf
+#wget -q --no-check-certificate https://raw.githubusercontent.com/blurainer/sh4kiptv/master/iptv.conf
 #设置权限
-chmod -R 0644 dns.conf iptv.conf
+chmod -R 0644 dns.conf
+#chmod -R 0644 iptv.conf
 #完成提示
 echo 成功
 #延迟运行
